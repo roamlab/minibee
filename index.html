@@ -175,7 +175,8 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
+
+    <!-- Abstract -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
@@ -184,7 +185,7 @@
             Bimanual robot manipulators can achieve impressive dexterity, but typically rely on two full six- or 
             seven-degree-of-freedom arms so that paired grippers can coordinate effectively. This traditional framework 
             increases system complexity while only exploiting a fraction of the overall workspace for dexterous interaction. 
-            We introduce the MiniBEE (Miniature Bi-manual End-Effector, a compact system in which two reduced-mobility arms (3+ DOF each) are coupled 
+            We introduce the MiniBEE (Miniature Bi-manual End-Effector), a compact system in which two reduced-mobility arms (3+ DOF each) are coupled 
             into a kinematic chain that preserves full relative positioning between grippers. To guide our design, we 
             formulate a kinematic dexterity metric that enlarges the dexterous workspace while keeping the mechanism lightweight 
             and wearable. The resulting system supports two complementary modes: (i) wearable kinesthetic data collection with 
@@ -196,71 +197,79 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
+    <!-- /Abstract -->
 
 
-    
+    <!-- Data Collection -->
     <div class="columns is-centered has-text-centered">
-    <div class="column is-four-fifths">
-      <h2 class="title is-3">Data Collection</h2>
-      <div class="publication-video">
-        <video autoplay controls muted loop playsinline width="100%" height="auto">
-          <source src="./static/videos/minibee_datacollection.mp4" type="video/mp4">
-        </video>
-      </div>
-          <br/>
-          <p>
-            We track joint angles, which gives us the pose of the grippers relative to each other. In addition, we collect RGB data from wrist cameras mounted on each gripper. MiniBEE is intentionally designed
-            to be as compact as possible without sacrificing dexterity. Due its miniature form factor, MiniBEE can be work by a person that can then perform kinesthetic data collection for various tasks. 
-          </p>
-    </div>
-  </div>
-  
-    <!--/ Paper video. -->
-  <div class="hero-body">
-  <div class="container">
-
-    <!-- Header -->
-    <h3 class="title is-3 has-text-centered">Experiments</h3>
-
-    <!-- First row (2 videos) -->
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <video autoplay controls muted loop playsinline width="100%">
-          <source src="./static/videos/minibee_experiment_block.mp4" type="video/mp4">
-        </video>
-      </div>
-
-      <div class="column is-half">
-        <video autoplay controls muted loop playsinline width="100%">
-          <source src="./static/videos/minibee_experiment_glasses.mp4" type="video/mp4">
-        </video>
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Data Collection</h2>
+        <div class="publication-video">
+          <video autoplay controls muted loop playsinline width="100%" height="auto">
+            <source src="./static/videos/minibee_datacollection.mp4" type="video/mp4">
+          </video>
+        </div>
+        <br/>
+        <p>
+          We track joint angles, which gives us the pose of the grippers relative to each other. In addition, we collect RGB data from wrist cameras mounted on each gripper. MiniBEE is intentionally designed
+          to be as compact as possible without sacrificing dexterity. Due its miniature form factor, MiniBEE can be worn by a person that can then perform kinesthetic data collection for various tasks. 
+        </p>
       </div>
     </div>
+    <!-- /Data Collection -->
 
-    <!-- Second row (1 centered video) -->
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <video autoplay controls muted loop playsinline width="100%">
-          <source src="./static/videos/minibee_experiment_pillbottle.mp4" type="video/mp4">
-        </video>
+
+    <!-- Experiments -->
+    <div class="hero-body">
+      <div class="container">
+        <h3 class="title is-3 has-text-centered">Experiments</h3>
+
+        <!-- First row (2 videos) -->
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <video autoplay controls muted loop playsinline width="100%">
+              <source src="./static/videos/minibee_experiment_block.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="column is-half">
+            <video autoplay controls muted loop playsinline width="100%">
+              <source src="./static/videos/minibee_experiment_glasses.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+        <!-- Second row (1 centered video) -->
+        <div class="columns is-centered">
+          <div class="column is-half">
+            <video autoplay controls muted loop playsinline width="100%">
+              <source src="./static/videos/minibee_experiment_pillbottle.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- /Experiments -->
 
-  </div>
-</div>
 
-  <div class="columns is-centered has-text-centered"> 
+    <!-- Full Paper Video -->
+    <div class="columns is-centered has-text-centered"> 
       <div class="column is-four-fifths"> 
         <h2 class="title is-3">Full Paper Video</h2> 
         <div class="publication-video"> 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/wTeOvraYqUE?si=BcKZWLDlcwcl-oc1" title="YouTube video player" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/wTeOvraYqUE?si=BcKZWLDlcwcl-oc1" 
+            title="YouTube video player"
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe> 
         </div> 
       </div> 
     </div>
-    
+    <!-- /Full Paper Video -->
+
   </div>
 </section>
 
