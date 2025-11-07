@@ -187,15 +187,54 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Abstract -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Wearable Kinesthetic Data-Collection</h2>
+
+    <h2 class="title is-3 has-text-centered">Wearable Kinesthetic Data Collection</h2>
+
+    <!-- Outer row -->
+    <div class="columns is-gapless">
+
+      <!-- Left side: big 2x2 video -->
+      <div class="column is-two-thirds">
+        <video autoplay muted loop playsinline width="100%">
+          <source src="./static/videos/v1_CAMERA_Trimmed" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
-    </div>
-    
+
+      <!-- Right side: split into 1x2 + two 1x1s -->
+      <div class="column is-one-third">
+
+        <!-- Top right: wide video (1x2) -->
+        <div class="mb-2">
+          <video autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/v1_joints_trimmed.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Bottom right: two small videos side-by-side -->
+        <div class="columns is-gapless">
+          <div class="column">
+            <video autoplay muted loop playsinline width="100%">
+              <source src="./static/videos/V1_LEFT_Trimmed.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="column">
+            <video autoplay muted loop playsinline width="100%">
+              <source src="./static/videos/V1_RIGHT_Trimmed.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+      </div> <!-- end right side -->
+
+    </div> <!-- end outer row -->
+
   </div>
 </section>
+
 
 <section class="section">
   <div class="container is-max-desktop">
